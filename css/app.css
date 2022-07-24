@@ -17,6 +17,13 @@
     margin: 0 auto;
 }
 
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    font-size: 3rem;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -30,11 +37,15 @@
     aspect-ratio: 1;
 }
 
+.body_color {
+    background-color: var(--body-bg-color);
+}
+
 .cell_blue {
     background-color: var(--cell-blue);
 }
 
-.cell_fuzz {
+.cell_fizz {
     background-color: var(--cell-fuzz);
 }
 
@@ -42,7 +53,8 @@
     background-color: var(--cell-buzz);
 }
 
-.cell_fuzzbuzz {
+.cell_fizzbuzz {
     background-color: var(--cell-fuzzbuzz);
 }
+
 
