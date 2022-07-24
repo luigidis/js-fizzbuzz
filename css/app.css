@@ -1,0 +1,48 @@
+:root {
+    --body-bg-color: #083B4C;
+    --cell-blue: #1389B2;
+    --cell-fuzz: #0CD6A1;
+    --cell-buzz: #FFD166;
+    --cell-fuzzbuzz: #F0466F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.cell {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    aspect-ratio: 1;
+}
+
+.cell_blue {
+    background-color: var(--cell-blue);
+}
+
+.cell_fuzz {
+    background-color: var(--cell-fuzz);
+}
+
+.cell_buzz {
+    background-color: var(--cell-buzz);
+}
+
+.cell_fuzzbuzz {
+    background-color: var(--cell-fuzzbuzz);
+}
+
